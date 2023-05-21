@@ -15,4 +15,15 @@ Feature: This feature will be used to test the Add to Cart functionality of Swag
     And I click on Shopping cart link
     Then I verify the item on cart page
 
-    
+  Scenario: Add multiple products to the cart
+    When I add the following products to the cart:
+      | product                  |
+      | Sauce Labs Onesie        |
+      | Sauce Labs Bolt T-Shirt  |
+      | Sauce Labs Fleece Jacket |
+    And I click on Shopping cart link
+    Then the cart should contain the added products
+      | product                  |
+      | Sauce Labs Onesie        |
+      | Sauce Labs Bolt T-Shirt  |
+      | Sauce Labs Fleece Jacket |

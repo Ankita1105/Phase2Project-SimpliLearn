@@ -120,6 +120,119 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I have launched the application",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepDefs.LoginStepDef.i_have_launched_the_application()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter username as \"standard_user\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefs.LoginStepDef.i_enter_username_as(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter password as \"secret_sauce\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.LoginStepDef.i_enter_password_as(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on Login button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.LoginStepDef.i_click_on_Login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should land on home page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.LoginStepDef.i_should_land_on_home_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Add multiple products to the cart",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@AddToCart"
+    }
+  ]
+});
+formatter.step({
+  "name": "I add the following products to the cart:",
+  "rows": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepDefs.AddToCartStepDef.i_add_the_following_products_to_the_cart(io.cucumber.datatable.DataTable)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on Shopping cart link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefs.AddToCartStepDef.i_click_on_shopping_cart_link()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the cart should contain the added products",
+  "rows": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepDefs.AddToCartStepDef.the_cart_should_contain_the_added_products(io.cucumber.datatable.DataTable)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("file:src/test/java/features/Login.feature");
 formatter.feature({
   "name": "This feature will be used to test the login functionality of Swag Labs application",
