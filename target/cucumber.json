@@ -1,0 +1,593 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3590000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefs.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2171000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter username as \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.LoginStepDef.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2072000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.LoginStepDef.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepDefs.LoginStepDef.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should land on home page",
+            "match": {
+              "location": "stepDefs.LoginStepDef.i_should_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-21T06:33:32.711Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2901000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Add the product to Cart",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-add-to-cart-functionality-of-swag-labs-application;add-the-product-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 139000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2059000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on the Product name as \"Sauce Labs Backpack\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefs.AddToCartStepDef.i_click_on_the_Product_name_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2047000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on the Add to cart Button",
+            "match": {
+              "location": "stepDefs.AddToCartStepDef.i_click_on_the_Add_to_cart_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2053000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Shopping cart link",
+            "match": {
+              "location": "stepDefs.AddToCartStepDef.i_click_on_shopping_cart_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2034000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I verify the item on cart page",
+            "match": {
+              "location": "stepDefs.AddToCartStepDef.i_verify_the_item_on_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddToCart"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will be used to test the Add to Cart functionality of Swag Labs application",
+    "description": "",
+    "id": "this-feature-will-be-used-to-test-the-add-to-cart-functionality-of-swag-labs-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/AddToCart.feature",
+    "tags": [
+      {
+        "name": "@AddToCart",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3489000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefs.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-21T06:33:51.970Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1621000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Login success scenario using parameters",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-functionality-of-swag-labs-application;login-success-scenario-using-parameters",
+        "after": [
+          {
+            "result": {
+              "duration": 138000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2301000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter username as \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.LoginStepDef.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2071000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.LoginStepDef.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepDefs.LoginStepDef.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should land on home page",
+            "match": {
+              "location": "stepDefs.LoginStepDef.i_should_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3453000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefs.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-21T06:34:01.735Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1601000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Login Failure scenario using Scenario outline",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-functionality-of-swag-labs-application;login-failure-scenario-using-scenario-outline;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2316000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter username as \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.LoginStepDef.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2063000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter password as \"xyz@12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xyz@12345\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.LoginStepDef.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepDefs.LoginStepDef.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2038000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should get the error message as \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefs.LoginStepDef.i_should_get_the_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3447000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepDefs.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-21T06:34:13.435Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1573000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Login Failure scenario using Scenario outline",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-functionality-of-swag-labs-application;login-failure-scenario-using-scenario-outline;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 125000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2131000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter username as \"locked_out_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"locked_out_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.LoginStepDef.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2071000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.LoginStepDef.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepDefs.LoginStepDef.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2034000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should get the error message as \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Sorry, this user has been locked out.\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefs.LoginStepDef.i_should_get_the_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will be used to test the login functionality of Swag Labs application",
+    "description": "",
+    "id": "this-feature-will-be-used-to-test-the-login-functionality-of-swag-labs-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
